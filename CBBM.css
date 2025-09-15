@@ -1,0 +1,52 @@
+/* === Fonts === */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* === Couleurs === */
+.text-orange { color: #F38B1A; }
+.btn-orange {
+  background-color: #F38B1A;
+  color: #fff;
+}
+.btn-orange:hover {
+  background-color: #d97914;
+  color: #fff;
+}
+
+/* === Hero section === */
+.hero {
+  padding: 120px 0 80px;
+  background: #fff;
+  photo: url('c:\Users\simplonn\Desktop\Cheikh Bethio\BIO2_6.JPG') no -repeat center center ;
+}
+
+/* === Timeline === */
+.timeline {
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+.timeline li {
+  margin: 20px 0;
+  padding-left: 40px;
+  position: relative;
+}
+.timeline li::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 8px;
+  width: 12px;
+  height: 12px;
+  background: #F38B1A;
+  border-radius: 50%;
+}
+.timeline .date {
+  font-weight: bold;
+  color: #1E3C61;
+  margin-right: 10px;
+}
